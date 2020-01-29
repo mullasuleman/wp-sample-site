@@ -1,4 +1,4 @@
-#OS generated files
+# OS generated files
 
 .DS_Store
 .DS_Store?
@@ -8,9 +8,12 @@
 ehthumbs.db
 Thumbs.db
 
-#Debug files
+# Debug files
 *.log
 *.sql
 
-#WordPress folders and files
+# WordPress folders and files
 /uploads/
+
+# WordPress plugins
+# /plugins/block-unit-test
