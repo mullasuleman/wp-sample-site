@@ -10,3 +10,27 @@ License URI: LICENSE
 Text Domain: sample-theme
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+
+.has-light-grayish-magenta-background-color {
+	background-color: #d0a5db;
+}
+
+.has-light-grayish-magenta-color {
+	color: #d0a5db;
+}
+
+.has-white-color {
+	color: white;
+}
+
+.has-white-background-color {
+	background-color: white;
+}
+
+.has-black-color {
+	color: black;
+}
+
+.has-black-background-color {
+	background-color: black;
+}

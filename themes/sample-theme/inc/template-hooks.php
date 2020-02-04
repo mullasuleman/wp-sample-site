@@ -40,11 +40,16 @@ add_action( 'wp_head', 'sample_theme_pingback_header' );
 // loading block editor JS
 // array specifies the dependencies: wp gives access to the WP, when dom is ready and when we are editing a post
 
-function sample_theme_enqueue_block_editor_assets() {
-    wp_enqueue_script(
-        'block-editor-js',
-		get_template_directory_uri() . '/assets/js/block-editor.js',
-		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
-    );
-}
-add_action( 'enqueue_block_editor_assets', 'sample_theme_enqueue_block_editor_assets' );
+// loading blocks with JS
+
+// function sample_theme_enqueue_block_editor_assets() {
+//     wp_enqueue_script(
+//         'block-editor-js',
+// 		get_template_directory_uri() . '/assets/js/block-editor.js',
+// 		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' )
+//     );
+// }
+// add_action( 'enqueue_block_editor_assets', 'sample_theme_enqueue_block_editor_assets' );
+
+// registering with PHP
+// see file inc/block-editor.php
