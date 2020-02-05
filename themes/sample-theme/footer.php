@@ -12,6 +12,7 @@
 ?>
 
 	</div><!-- #content -->
+	<h1>This is enhancement footer</h1>
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
